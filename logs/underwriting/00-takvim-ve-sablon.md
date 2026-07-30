@@ -13,7 +13,7 @@ fiyatından bağımsız kapatılır.
 | 3 | 2026-07-22 (Çar) | **ENKAI** | ✅ TUT (backlog 07-30) |
 | 4 | 2026-07-23 (Per) | **MPARK** | ✅ BÜYÜT →%15,5 (backlog 07-30) |
 | 5 | 2026-07-24 (Cum) | **TURSG** | ✅ BÜYÜT →%14,9 (backlog 07-30) |
-| 6 | 2026-07-30 (Çar) | MIATK (izleme) | Bekliyor (sıradaki) |
+| 6 | 2026-07-31 (Per) | **MIATK** (izleme) | ✅ ALMA (evren dışı: BIST 100 değil + zarar) → takipten çıkarıldı |
 
 > Alım kararı **yalnızca** underwriting ile verilir; MIATK izleme listesindedir.
 
