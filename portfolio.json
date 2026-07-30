@@ -1,6 +1,6 @@
 {
-  "as_of": "2026-07-20",
-  "cash": 145158.3,
+  "as_of": "2026-07-30",
+  "cash": 121032.3,
   "positions": {
     "MAVI.IS": {
       "shares": 1951,
@@ -27,17 +27,17 @@
       "opened": "2026-07-16"
     },
     "MPARK.IS": {
-      "shares": 151,
-      "avg_cost": 429.5,
-      "cost_basis": 64854.5,
+      "shares": 187.0,
+      "avg_cost": 424.7353,
+      "cost_basis": 79425.5,
       "tier": "mid",
       "status": "UNDERWRITE_BEKLIYOR",
       "opened": "2026-07-16"
     },
     "TURSG.IS": {
-      "shares": 9924.0,
-      "avg_cost": 6.549,
-      "cost_basis": 64992.2,
+      "shares": 11424.0,
+      "avg_cost": 6.5255,
+      "cost_basis": 74547.2,
       "tier": "mid",
       "status": "UNDERWRITE_BEKLIYOR",
       "opened": "2026-07-16"

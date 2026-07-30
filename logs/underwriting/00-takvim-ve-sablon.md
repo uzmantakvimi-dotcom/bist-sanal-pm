@@ -8,12 +8,12 @@ fiyatından bağımsız kapatılır.
 
 | Gün | Tarih | Hisse | Durum |
 |---|---|---|---|
-| 1 | 2026-07-20 (Pzt) | **MAVI** | ✅ Yapıldı |
-| 2 | 2026-07-21 (Sal) | CCOLA | Bekliyor |
-| 3 | 2026-07-22 (Çar) | ENKAI | Bekliyor |
-| 4 | 2026-07-23 (Per) | MPARK | Bekliyor |
-| 5 | 2026-07-24 (Cum) | TURSG | Bekliyor |
-| 6 | 2026-07-30 (Çar) | MIATK (izleme) | Bekliyor |
+| 1 | 2026-07-20 (Pzt) | **MAVI** | ✅ TUT |
+| 2 | 2026-07-21 (Sal) | **CCOLA** | ✅ TUT (backlog 07-30) |
+| 3 | 2026-07-22 (Çar) | **ENKAI** | ✅ TUT (backlog 07-30) |
+| 4 | 2026-07-23 (Per) | **MPARK** | ✅ BÜYÜT →%15,5 (backlog 07-30) |
+| 5 | 2026-07-24 (Cum) | **TURSG** | ✅ BÜYÜT →%14,9 (backlog 07-30) |
+| 6 | 2026-07-30 (Çar) | MIATK (izleme) | Bekliyor (sıradaki) |
 
 > Alım kararı **yalnızca** underwriting ile verilir; MIATK izleme listesindedir.
 

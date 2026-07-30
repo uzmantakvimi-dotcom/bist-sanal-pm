@@ -28,9 +28,11 @@ python scripts/update_nav.py
 yfinance bu ortamdaki proxy'den TLS geçemediği için `lib_prices` doğrudan Yahoo
 chart API'yi CA bundle ile kullanır; kullanılan kaynak her raporda `price_source`'ta görünür.
 
-## Son durum (2026-07-20, Gün 1)
-- **NAV 494.891 TL** (−%1,0) · XU100 −%1,9 · **alpha +0,9 puan**
+## Son durum (2026-07-30)
+- **NAV 487.663 TL** (−%2,5) · XU100 −%5,7 · **alpha +3,3 puan** · nakit %24,8
+- Tüm açılış pozisyonları underwrite edildi:
+  MAVI **TUT** · CCOLA **TUT** · ENKAI **TUT** · MPARK **BÜYÜT** (→%15,5) · TURSG **BÜYÜT** (→%14,9)
 - TURSG bölünme (2:1) düzeltmesi yapıldı (nakit-nötr, eski kayıt korundu).
-- MAVI underwriting: **TUT** (adil değer ~57 TL, FD/FAVÖK ~4x, net nakit %22).
+- Sıradaki: MIATK (izleme listesi).
 
 > Yatırım tavsiyesi değildir. Bu bir sanal portföy deneyidir.
