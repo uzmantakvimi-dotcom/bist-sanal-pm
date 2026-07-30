@@ -9,7 +9,18 @@
   "benchmark_start_level": 14251.30,
   "benchmark_start_note": "Kurulus tarihi 2026-07-16 XU100 kapanisina sabitlendi. (Otomatik ilk-run son kapanisi 2026-07-17=13981.10 aldi; kurulusla ayni gune hizalamak icin 2026-07-16 kapanisi 14251.30 kullanildi. Kaynak: Yahoo XU100.IS.)",
   "cumulative_inflation_since_inception": 0.0,
-  "inflation_source": null,
+  "inflation_note": "Kurulus 2026-07-16. En son RESMI TUIK printi Haziran 2026 (3 Tem 2026 aciklandi) kurulus ONCESINE ait; kurulus-sonrasi ilk print Temmuz 2026 olup ~3 Agu 2026'da aciklanacak. Bu nedenle kurulus-sonrasi kumulatif TUFE su an ~0; Temmuz printi ciktiginda guncellenecek.",
+  "latest_tuik_print": {
+    "month": "2026-06",
+    "mom_pct": 0.99,
+    "yoy_pct": 32.11,
+    "core_b_mom_pct": 1.66,
+    "yiufe_yoy_pct": 28.09,
+    "announced": "2026-07-03",
+    "note": "Referans; kurulus (16 Tem) oncesi oldugu icin kumulatife dahil DEGIL."
+  },
+  "next_inflation_update_expected": "2026-08-03",
+  "inflation_source": "https://veriportali.tuik.gov.tr/en/press/58289",
   "risk_limits": {
     "max_single_position_pct": 20.0,
     "min_cash_pct": 5.0,
