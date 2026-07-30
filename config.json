@@ -1,0 +1,35 @@
+{
+  "fund_name": "BIST Sanal PM",
+  "currency": "TRY",
+  "inception_date": "2026-07-16",
+  "horizon_months": 12,
+  "target_return_pct": 100.0,
+  "starting_capital": 500000.0,
+  "benchmark_symbol": "XU100.IS",
+  "benchmark_start_level": 14251.30,
+  "benchmark_start_note": "Kurulus tarihi 2026-07-16 XU100 kapanisina sabitlendi. (Otomatik ilk-run son kapanisi 2026-07-17=13981.10 aldi; kurulusla ayni gune hizalamak icin 2026-07-16 kapanisi 14251.30 kullanildi. Kaynak: Yahoo XU100.IS.)",
+  "cumulative_inflation_since_inception": 0.0,
+  "inflation_source": null,
+  "risk_limits": {
+    "max_single_position_pct": 20.0,
+    "min_cash_pct": 5.0,
+    "max_midcap_tier_pct": 40.0,
+    "max_single_macro_bet_pct": 15.0
+  },
+  "price_source_priority": [
+    "yfinance",
+    "yahoo_chart_api",
+    "isyatirimhisse",
+    "web_research"
+  ],
+  "universe": "BIST100",
+  "tier_map": {
+    "MAVI.IS": "mid",
+    "MPARK.IS": "mid",
+    "CCOLA.IS": "large",
+    "ENKAI.IS": "large",
+    "TURSG.IS": "large"
+  },
+  "tier_map_note": "Olcek siniflamasi burada tutulur (portfolio.json yalnizca pozisyon/adet). TURSG Turkiye Sigorta buyuk olcekli, devlet kontrollu (TVF) sigortaci - large. MPARK orta-buyuk sinirinda, ihtiyaten mid.",
+  "ca_bundle_hint": "/root/.ccr/ca-bundle.crt"
+}
