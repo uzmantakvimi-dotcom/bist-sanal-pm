@@ -1,0 +1,61 @@
+<!doctype html><html lang="tr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>BIST Sanal PM — Panel</title>
+<style>
+:root{--bg:#fcfcfb;--surface:#ffffff;--ink:#0b0b0b;--ink2:#52514e;--line:#e7e6e2;
+--s1:#2a78d6;--s2:#eb6834;--s3:#1baf7a;--muted:#8a8984;--muted-fill:#cbcac4;--track:#e7e6e2;--zero:#b8b7b1;--good:#0f7b3f;--bad:#c0392b;}
+@media (prefers-color-scheme:dark){:root{--bg:#131312;--surface:#1a1a19;--ink:#fff;--ink2:#c3c2b7;--line:#333330;
+--s1:#3987e5;--s2:#d95926;--s3:#199e70;--muted:#9a998f;--muted-fill:#4a4a46;--track:#333330;--zero:#4a4a46;--good:#4fbf7f;--bad:#e66767;}}
+:root[data-theme=dark]{--bg:#131312;--surface:#1a1a19;--ink:#fff;--ink2:#c3c2b7;--line:#333330;--s1:#3987e5;--s2:#d95926;--s3:#199e70;--muted:#9a998f;--muted-fill:#4a4a46;--track:#333330;--zero:#4a4a46;--good:#4fbf7f;--bad:#e66767;}
+:root[data-theme=light]{--bg:#fcfcfb;--surface:#fff;--ink:#0b0b0b;--ink2:#52514e;--line:#e7e6e2;--s1:#2a78d6;--s2:#eb6834;--s3:#1baf7a;--muted:#8a8984;--muted-fill:#cbcac4;--track:#e7e6e2;--zero:#b8b7b1;--good:#0f7b3f;--bad:#c0392b;}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:14px/1.5 -apple-system,Segoe UI,Roboto,Arial,sans-serif;padding:24px}
+.wrap{max-width:900px;margin:0 auto}h1{font-size:22px;margin:0 0 2px}.sub{color:var(--ink2);font-size:12px;margin-bottom:20px}
+.stats{display:flex;gap:12px;flex-wrap:wrap;margin-bottom:22px}
+.stat{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:12px 16px;flex:1;min-width:130px}
+.stat .k{color:var(--ink2);font-size:11px;text-transform:uppercase;letter-spacing:.04em}.stat .v{font-size:22px;font-weight:700;margin-top:2px}
+.good{color:var(--good)}.bad{color:var(--bad)}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:16px 18px;margin-bottom:18px;overflow-x:auto}
+.card h2{font-size:14px;margin:0 0 12px;font-weight:650}.card .hint{color:var(--ink2);font-size:11px;margin:-6px 0 12px}
+.chart{width:100%;height:auto;max-width:100%}
+.grid{stroke:var(--line);stroke-width:1}.zero{stroke:var(--zero);stroke-width:1;stroke-dasharray:3 3}
+.axlab{fill:var(--ink2);font-size:10px}.barlab{fill:var(--ink);font-size:12px;font-weight:600}.barval{fill:var(--ink2);font-size:11px}.dlab{font-size:11px;font-weight:600}
+.d1{fill:var(--s1)}.d2{fill:var(--s2)}
+table{border-collapse:collapse;width:100%;font-size:13px;min-width:560px}
+th,td{padding:8px 10px;border-bottom:1px solid var(--line);text-align:right}th{color:var(--ink2);font-weight:600;font-size:11px;text-transform:uppercase;letter-spacing:.03em}
+th:first-child,td.sym{text-align:left}td.sym{font-weight:700}.dec{text-align:center;font-weight:700}
+.pos{color:var(--good)}.neg{color:var(--bad)}
+.legend{display:flex;gap:16px;font-size:12px;color:var(--ink2);margin-top:8px}.legend span{display:inline-flex;align-items:center;gap:6px}.dot{width:10px;height:10px;border-radius:50%}
+.foot{color:var(--muted);font-size:11px;margin-top:8px}
+</style></head><body><div class="wrap">
+<h1>BIST Sanal PM — Panel</h1><div class="sub">2026-07-30 kapanışı · 500k TL sanal portföy · 12 ay · %100 hedef · <b>Yatırım tavsiyesi değildir.</b></div>
+<div class="stats">
+<div class="stat"><div class="k">NAV</div><div class="v">487,308 TL</div></div>
+<div class="stat"><div class="k">Toplam getiri</div><div class="v bad">-2.54%</div></div>
+<div class="stat"><div class="k">XU100</div><div class="v">-5.69%</div></div>
+<div class="stat"><div class="k">Alpha</div><div class="v good">+3.15 p</div></div>
+<div class="stat"><div class="k">Nakit</div><div class="v">%24.8</div></div>
+</div>
+
+<div class="card"><h2>Portföy vs XU100 — kuruluştan getiri</h2><svg viewBox="0 0 560 240" class="chart" role="img">
+<line x1="44" y1="208.6" x2="544" y2="208.6" class="grid"/><text x="38" y="211.6" class="axlab" text-anchor="end">-7%</text><line x1="44" y1="153.4" x2="544" y2="153.4" class="grid"/><text x="38" y="156.4" class="axlab" text-anchor="end">-5%</text><line x1="44" y1="98.2" x2="544" y2="98.2" class="grid"/><text x="38" y="101.2" class="axlab" text-anchor="end">-3%</text><line x1="44" y1="43.0" x2="544" y2="43.0" class="grid"/><text x="38" y="46.0" class="axlab" text-anchor="end">-1%</text>
+<polyline points="44.0,67.9 294.0,70.9 544.0,172.4" fill="none" stroke="var(--s2)" stroke-width="2"/>
+<polyline points="44.0,43.6 294.0,65.9 544.0,85.5" fill="none" stroke="var(--s1)" stroke-width="2"/>
+<circle cx="44.0" cy="67.9" r="4" class="d2"><title>07-17: -1.90%</title></circle><circle cx="294.0" cy="70.9" r="4" class="d2"><title>07-24: -2.01%</title></circle><circle cx="544.0" cy="172.4" r="4" class="d2"><title>07-30: -5.69%</title></circle><circle cx="44.0" cy="43.6" r="4" class="d1"><title>07-17: -1.02%</title></circle><circle cx="294.0" cy="65.9" r="4" class="d1"><title>07-24: -1.83%</title></circle><circle cx="544.0" cy="85.5" r="4" class="d1"><title>07-30: -2.54%</title></circle><text x="44.0" y="216" class="axlab" text-anchor="middle">07-17</text><text x="294.0" y="216" class="axlab" text-anchor="middle">07-24</text><text x="544.0" y="216" class="axlab" text-anchor="middle">07-30</text>
+<text x="544.0" y="75.5" class="dlab" fill="var(--s1)" text-anchor="end">Portföy -2.5%</text>
+<text x="544.0" y="188.4" class="dlab" fill="var(--s2)" text-anchor="end">XU100 -5.7%</text>
+</svg>
+<div class="legend"><span><span class="dot" style="background:var(--s1)"></span>Portföy</span><span><span class="dot" style="background:var(--s2)"></span>XU100</span></div></div>
+
+<div class="card"><h2>İlk alım vs güncel fiyat</h2>
+<table><thead><tr><th>Hisse</th><th>İlk alım</th><th>Ort. maliyet</th><th>Adet</th><th>Güncel</th><th>Δ maliyet→güncel</th><th>Ağırlık</th><th>Karar</th></tr></thead><tbody><tr><td class='sym'>MAVI</td><td class='num'>41.00</td><td class='num'>41.00</td><td class='num'>1,951</td><td class='num'>39.06</td><td class='num neg'>-4.7%</td><td class='num'>%15.6</td><td class='dec'>TUT</td></tr><tr><td class='sym'>CCOLA</td><td class='num'>90.00</td><td class='num'>90.00</td><td class='num'>833</td><td class='num'>91.50</td><td class='num pos'>+1.7%</td><td class='num'>%15.6</td><td class='dec'>TUT</td></tr><tr><td class='sym'>MPARK</td><td class='num'>429.50</td><td class='num'>424.74</td><td class='num'>187</td><td class='num'>403.50</td><td class='num neg'>-5.0%</td><td class='num'>%15.5</td><td class='dec'>BÜYÜT</td></tr><tr><td class='sym'>TURSG</td><td class='num'>13.10</td><td class='num'>6.53</td><td class='num'>11,424</td><td class='num'>6.33</td><td class='num neg'>-3.0%</td><td class='num'>%14.8</td><td class='dec'>BÜYÜT</td></tr><tr><td class='sym'>ENKAI</td><td class='num'>92.15</td><td class='num'>92.15</td><td class='num'>760</td><td class='num'>86.95</td><td class='num neg'>-5.6%</td><td class='num'>%13.6</td><td class='dec'>TUT</td></tr></tbody></table>
+<div class="foot">TURSG ilk alım 13,10 kaydı bölünme-öncesi hataydı; 2:1 düzeltme + ekleme sonrası ort. maliyet 6,53.</div></div>
+
+<div class="card"><h2>Portföy ağırlıkları</h2><svg viewBox="0 0 520 190" class="chart" role="img"><text x="0" y="21" class="barlab">MAVI</text><rect x="60" y="10" width="270.7" height="16" rx="4" fill="var(--s1)"><title>MAVI: %15.6</title></rect><text x="336.7" y="22" class="barval">%15.6</text><text x="0" y="51" class="barlab">CCOLA</text><rect x="60" y="40" width="270.7" height="16" rx="4" fill="var(--s1)"><title>CCOLA: %15.6</title></rect><text x="336.7" y="52" class="barval">%15.6</text><text x="0" y="81" class="barlab">MPARK</text><rect x="60" y="70" width="268.0" height="16" rx="4" fill="var(--s1)"><title>MPARK: %15.5</title></rect><text x="334.0" y="82" class="barval">%15.5</text><text x="0" y="111" class="barlab">TURSG</text><rect x="60" y="100" width="256.9" height="16" rx="4" fill="var(--s1)"><title>TURSG: %14.8</title></rect><text x="322.9" y="112" class="barval">%14.8</text><text x="0" y="141" class="barlab">ENKAI</text><rect x="60" y="130" width="234.7" height="16" rx="4" fill="var(--s1)"><title>ENKAI: %13.6</title></rect><text x="300.7" y="142" class="barval">%13.6</text><text x="0" y="171" class="barlab">Nakit</text><rect x="60" y="160" width="430.0" height="16" rx="4" fill="var(--muted-fill)"><title>Nakit: %24.8</title></rect><text x="496.0" y="172" class="barval">%24.8</text></svg></div>
+
+<div class="card"><h2>3 senaryolu İNA — bugünkü fiyata göre yukarı/aşağı potansiyel</h2>
+<div class="hint">Uçlar: Bear (turuncu) ↔ Bull (mavi). Halkalı nokta = olasılık-ağırlıklı adil değer. Sağdaki etiket = ağırlıklı yukarı % ve karar.</div><svg viewBox="0 0 560 224" class="chart" role="img"><line x1="185.0" y1="8" x2="185.0" y2="200" class="zero"/><text x="185.0" y="216" class="axlab" text-anchor="middle">0% (bugünkü fiyat)</text><text x="0" y="26" class="barlab">MAVI</text><line x1="184.0" y1="22" x2="377.3" y2="22" stroke="var(--track)" stroke-width="6" stroke-linecap="round"/><circle cx="184.0" cy="22" r="4" fill="var(--s2)"><title>MAVI Bear -1%</title></circle><circle cx="377.3" cy="22" r="4" fill="var(--s1)"><title>MAVI Bull +116%</title></circle><circle cx="267.5" cy="22" r="5" fill="var(--s1)" stroke="var(--surface)" stroke-width="1.5"><title>MAVI ağırlıklı adil değer +50%</title></circle><text x="544" y="26" class="barval" text-anchor="end" fill="var(--muted)">+50% · TUT</text><text x="0" y="66" class="barlab">CCOLA</text><line x1="83.2" y1="62" x2="198.3" y2="62" stroke="var(--track)" stroke-width="6" stroke-linecap="round"/><circle cx="83.2" cy="62" r="4" fill="var(--s2)"><title>CCOLA Bear -62%</title></circle><circle cx="198.3" cy="62" r="4" fill="var(--s1)"><title>CCOLA Bull +8%</title></circle><circle cx="137.8" cy="62" r="5" fill="var(--s1)" stroke="var(--surface)" stroke-width="1.5"><title>CCOLA ağırlıklı adil değer -29%</title></circle><text x="544" y="66" class="barval" text-anchor="end" fill="var(--muted)">-29% · TUT</text><text x="0" y="106" class="barlab">MPARK</text><line x1="189.8" y1="102" x2="524.2" y2="102" stroke="var(--track)" stroke-width="6" stroke-linecap="round"/><circle cx="189.8" cy="102" r="4" fill="var(--s2)"><title>MPARK Bear +3%</title></circle><circle cx="524.2" cy="102" r="4" fill="var(--s1)"><title>MPARK Bull +205%</title></circle><circle cx="339.3" cy="102" r="5" fill="var(--s1)" stroke="var(--surface)" stroke-width="1.5"><title>MPARK ağırlıklı adil değer +93%</title></circle><text x="544" y="106" class="barval" text-anchor="end" fill="var(--s3)">+93% · BÜYÜT</text><text x="0" y="146" class="barlab">TURSG</text><line x1="162.3" y1="142" x2="368.8" y2="142" stroke="var(--track)" stroke-width="6" stroke-linecap="round"/><circle cx="162.3" cy="142" r="4" fill="var(--s2)"><title>TURSG Bear -14%</title></circle><circle cx="368.8" cy="142" r="4" fill="var(--s1)"><title>TURSG Bull +111%</title></circle><circle cx="251.7" cy="142" r="5" fill="var(--s1)" stroke="var(--surface)" stroke-width="1.5"><title>TURSG ağırlıklı adil değer +40%</title></circle><text x="544" y="146" class="barval" text-anchor="end" fill="var(--s3)">+40% · BÜYÜT</text><text x="0" y="186" class="barlab">ENKAI</text><line x1="124.6" y1="182" x2="193.3" y2="182" stroke="var(--track)" stroke-width="6" stroke-linecap="round"/><circle cx="124.6" cy="182" r="4" fill="var(--s2)"><title>ENKAI Bear -37%</title></circle><circle cx="193.3" cy="182" r="4" fill="var(--s1)"><title>ENKAI Bull +5%</title></circle><circle cx="155.2" cy="182" r="5" fill="var(--s1)" stroke="var(--surface)" stroke-width="1.5"><title>ENKAI ağırlıklı adil değer -18%</title></circle><text x="544" y="186" class="barval" text-anchor="end" fill="var(--muted)">-18% · TUT</text></svg>
+<div class="legend"><span><span class="dot" style="background:var(--s2)"></span>Bear</span><span><span class="dot" style="background:var(--s1)"></span>Bull / Ağırlıklı A.D.</span></div></div>
+
+<div class="foot">Kaynak: Yahoo Finance / İş Yatırım / KAP. Değerleme: logs/underwriting/*_ina.py (reel FCFF; TURSG artık gelir). Bu bir sanal portföy deneyidir.</div>
+</div>
+<script>const r=document.documentElement;function s(t){r.setAttribute('data-theme',t)}</script>
+</body></html>
