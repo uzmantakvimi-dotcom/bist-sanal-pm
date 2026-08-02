@@ -1,11 +1,11 @@
 {
   "as_of": "2026-07-31",
-  "generated": "2026-08-02T20:05:08.423691Z",
+  "generated": "2026-08-02T20:23:52.892056Z",
   "currency": "USD",
   "nav": 10000.0,
-  "cash": 10000.0,
-  "cash_pct": 100.0,
-  "invested": 0.0,
+  "cash": 7600.68,
+  "cash_pct": 76.01,
+  "invested": 2399.32,
   "starting_capital": 10000.0,
   "total_return_pct": 0.0,
   "benchmark": {
@@ -16,7 +16,41 @@
     "return_pct": 0.0
   },
   "alpha_pct": 0.0,
-  "sector_weights": {},
-  "positions": [],
+  "sector_weights": {
+    "Consumer Staples": 14.0,
+    "Financials": 10.0
+  },
+  "positions": [
+    {
+      "symbol": "PEP",
+      "shares": 10.03,
+      "avg_cost": 139.56,
+      "price": 139.56,
+      "market_value": 1399.79,
+      "cost_basis": 1399.79,
+      "pnl": -0.0,
+      "pnl_pct": -0.0,
+      "sector": "Consumer Staples",
+      "theme": null,
+      "price_source": "yahoo_chart_api",
+      "price_date": "2026-07-31",
+      "weight_pct": 14.0
+    },
+    {
+      "symbol": "V",
+      "shares": 2.73,
+      "avg_cost": 366.13,
+      "price": 366.13,
+      "market_value": 999.53,
+      "cost_basis": 999.53,
+      "pnl": 0.0,
+      "pnl_pct": 0.0,
+      "sector": "Financials",
+      "theme": null,
+      "price_source": "yahoo_chart_api",
+      "price_date": "2026-07-31",
+      "weight_pct": 10.0
+    }
+  ],
   "risk_warnings": []
 }

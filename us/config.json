@@ -14,7 +14,11 @@
     "max_sector_pct": 30.0,
     "max_theme_pct": 20.0
   },
-  "sector_map": {},
+  "sector_map": {
+    "PEP": "Consumer Staples",
+    "V": "Financials",
+    "GOOGL": "Communication Services"
+  },
   "theme_map": {},
   "price_source_priority": [
     "yahoo_chart_api",

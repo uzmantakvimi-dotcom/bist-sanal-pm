@@ -99,7 +99,7 @@ def main():
     append_ledger(rec)
     print("ISLEM KAYDEDILDI:")
     print(json.dumps(rec, ensure_ascii=False, indent=2))
-    print(f"Nakit: {pf['cash']:,.2f} TL")
+    print(f"Nakit: {pf['cash']:,.2f}")
 
 
 if __name__ == "__main__":

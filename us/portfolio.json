@@ -1,5 +1,22 @@
 {
   "as_of": "2026-07-31",
-  "cash": 10000.0,
-  "positions": {}
+  "cash": 7600.68,
+  "positions": {
+    "PEP": {
+      "shares": 10.03,
+      "avg_cost": 139.56,
+      "cost_basis": 1399.79,
+      "tier": "Consumer Staples",
+      "status": "UNDERWRITE_BEKLIYOR",
+      "opened": "2026-07-31"
+    },
+    "V": {
+      "shares": 2.73,
+      "avg_cost": 366.13,
+      "cost_basis": 999.53,
+      "tier": "Financials",
+      "status": "UNDERWRITE_BEKLIYOR",
+      "opened": "2026-07-31"
+    }
+  }
 }
