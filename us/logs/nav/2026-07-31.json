@@ -1,0 +1,22 @@
+{
+  "as_of": "2026-07-31",
+  "generated": "2026-08-02T20:05:08.423691Z",
+  "currency": "USD",
+  "nav": 10000.0,
+  "cash": 10000.0,
+  "cash_pct": 100.0,
+  "invested": 0.0,
+  "starting_capital": 10000.0,
+  "total_return_pct": 0.0,
+  "benchmark": {
+    "symbol": "SPY",
+    "start": 747.03,
+    "level": 747.03,
+    "date": "2026-07-31",
+    "return_pct": 0.0
+  },
+  "alpha_pct": 0.0,
+  "sector_weights": {},
+  "positions": [],
+  "risk_warnings": []
+}

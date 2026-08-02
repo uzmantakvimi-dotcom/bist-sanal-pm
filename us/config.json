@@ -1,0 +1,26 @@
+{
+  "fund_name": "US Paper PM",
+  "currency": "USD",
+  "inception_date": "2026-07-31",
+  "horizon_months": 12,
+  "target_return_pct": 20.0,
+  "starting_capital": 10000.0,
+  "benchmark_symbol": "SPY",
+  "benchmark_start_level": 747.03,
+  "benchmark_start_note": "2026-07-31 SPY kapanisina sabitlendi (ilk NAV).",
+  "risk_limits": {
+    "max_single_position_pct": 15.0,
+    "min_cash_pct": 5.0,
+    "max_sector_pct": 30.0,
+    "max_theme_pct": 20.0
+  },
+  "sector_map": {},
+  "theme_map": {},
+  "price_source_priority": [
+    "yahoo_chart_api",
+    "isyatirimhisse",
+    "web_research"
+  ],
+  "universe": "SP500_plus_select_SP400",
+  "ca_bundle_hint": "/root/.ccr/ca-bundle.crt"
+}
