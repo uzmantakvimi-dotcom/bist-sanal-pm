@@ -8,7 +8,10 @@ geçmiş silinmez.
 - **500.000 TL sanal (kağıt) portföy**, gerçek para yok.
 - **Süre:** 12 ay (kuruluş 16 Temmuz 2026 → 16 Temmuz 2027).
 - **Hedef:** 12 ayda **%100 nominal getiri** (kümülatif enflasyondan arındırılmış reel performans da raporlanır).
-- **Benchmark:** BIST 100 (XU100). Başarı, hedefe ulaşmak **ve** benchmark'ı geçmektir.
+- **Benchmark (birincil):** **Tacirler Portföy Kartopu Serbest Fon (TTL)** — aktif, temel-analiz
+  odaklı fon; "sürekli kazandırmayan" bir endeksten daha anlamlı bir çıta. *(Veri erişimi kısıtlı
+  → kaynak-loglu manuel güncellenir.)* **İkincil (otomatik):** BIST 100 (XU100), her zaman canlı referans.
+- Başarı = hedefe ulaşmak **ve** birincil benchmark'ı (Kartopu fonu) geçmek.
 - Bu bir **kamuya açık şeffaflık deneyidir**: git geçmişi denetim izidir.
 
 ## 2. Yatırım felsefesi
@@ -24,9 +27,13 @@ geçmiş silinmez.
 | Nakit | min **%5** |
 | Orta ölçek katmanı (mid-cap) | maks **%40** |
 | Tek makro senaryoya bağımlı toplam ağırlık | maks **%15** |
-| Evren | yalnızca **BIST 100 içi likit** hisseler |
+| Çekirdek evren (≥%94) | **BIST 100 içi likit** hisseler |
+| **Opportunistic "hidden-gem" katmanı** | BIST 100 dışı düşük-sermayeli, toplam **maks %6**, tek isim **maks %6** |
 
-- Spekülatif / manipülasyona açık isimler yasak.
+- Çekirdek kitapta (≥%94) spekülatif / manipülasyona açık isimler **yasak**; kalite-değer disiplini geçerli.
+- **Hidden-gem istisnası:** %100 hedefi taşıyabilecek asimetrik bir bahis için, ayrı underwrite
+  edilmiş **tek** bir düşük-sermayeli isim, **%6 tavanla** ve **açık yüksek-risk etiketiyle**
+  tutulabilir. Boyut, **tam kaybın tolere edilebileceği** düzeydedir. Nakitten fonlanır.
 - Hedef fiyata gelen pozisyon satılır; hedef revizyonu **yalnızca yeni yazılı underwriting** ile.
 
 ## 4. Sert kurallar

@@ -29,9 +29,12 @@ Dil "şunu al" değil, "**bu portföy şu kararı verdi**".
 | Tek sektör (GICS) | maks **%30** |
 | Tek tema/faktör (ör. "AI", faiz) | maks **%20** |
 | Nakit | min **%5** |
-| Evren | **S&P 500 + seçili S&P 400 mid-cap**, likit |
+| Evren | **Herhangi ölçek — large / mid / micro fark etmez**, yeterli likidite koşuluyla; liyakate göre seçilir |
 
-- Meme/spekülatif/manipülasyona açık isim yok. **Kaldıraç, opsiyon, açığa satış yok.**
+- **Ölçek kısıtı yok:** en iyi risk/getiri hangi ölçekteyse oradan alınır (küçük/mikro-cap dahil).
+  Küçük-cap için tek fark: pozisyon boyutu likidite + risk ile ölçeklenir (asimetrik küçük-cap
+  bahisleri için tek isim fiilen daha küçük tutulur; tam kayıp tolere edilebilmeli).
+- Meme/pump & dump/manipülasyona açık isim yok. **Kaldıraç, opsiyon, açığa satış yok.**
 - Hedef fiyata gelen satılır; hedef revizyonu ancak yeni yazılı underwriting ile.
 
 ## 5. Sert kurallar

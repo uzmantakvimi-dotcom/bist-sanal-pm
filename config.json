@@ -5,9 +5,22 @@
   "horizon_months": 12,
   "target_return_pct": 100.0,
   "starting_capital": 500000.0,
+  "primary_benchmark": {
+    "name": "Tacirler Portfoy Kartopu Serbest Fon",
+    "tefas_code": "TTL",
+    "type": "fund",
+    "start_date": "2026-07-16",
+    "start_price": null,
+    "latest_price": null,
+    "latest_date": null,
+    "return_pct_since_inception": null,
+    "data_access_note": "TTL nitelikli-yatirimci serbest fonu; bu ortamda TEFAS/agregatorler otomatik cekilemiyor (403/blok). Getiri KAYNAK-LOGLU MANUEL guncellenir (mandate 5 web-fallback). Fiyat bulununca doldurulacak.",
+    "source": "https://www.tefas.gov.tr/FonAnaliz.aspx?FonKod=TTL"
+  },
   "benchmark_symbol": "XU100.IS",
+  "benchmark_role": "secondary_reference",
   "benchmark_start_level": 14251.30,
-  "benchmark_start_note": "Kurulus tarihi 2026-07-16 XU100 kapanisina sabitlendi. (Otomatik ilk-run son kapanisi 2026-07-17=13981.10 aldi; kurulusla ayni gune hizalamak icin 2026-07-16 kapanisi 14251.30 kullanildi. Kaynak: Yahoo XU100.IS.)",
+  "benchmark_start_note": "IKINCIL referans (otomatik izlenir). Birincil benchmark Tacirler Kartopu (TTL). XU100 kurulus 2026-07-16 kapanisi 14251.30. Kaynak: Yahoo XU100.IS.",
   "cumulative_inflation_since_inception": 0.0,
   "inflation_note": "Kurulus 2026-07-16. En son RESMI TUIK printi Haziran 2026 (3 Tem 2026 aciklandi) kurulus ONCESINE ait; kurulus-sonrasi ilk print Temmuz 2026 olup ~3 Agu 2026'da aciklanacak. Bu nedenle kurulus-sonrasi kumulatif TUFE su an ~0; Temmuz printi ciktiginda guncellenecek.",
   "latest_tuik_print": {
@@ -25,15 +38,18 @@
     "max_single_position_pct": 20.0,
     "min_cash_pct": 5.0,
     "max_midcap_tier_pct": 40.0,
-    "max_single_macro_bet_pct": 15.0
+    "max_single_macro_bet_pct": 15.0,
+    "opportunistic_sleeve_max_pct": 6.0,
+    "opportunistic_single_max_pct": 6.0
   },
+  "opportunistic_note": "HIDDEN-GEM katmani: BIST 100 disi dusuk-sermayeli asimetrik bahis icin kontrollu istisna. Toplam <=%6, tek isim <=%6. Yuksek risk, tam kayip tolere edilebilir boyut. Ayri underwrite + acik risk etiketi zorunlu. Cekirdek kitap (>=%94) hala BIST 100 ici + kalite-deger disiplininde.",
   "price_source_priority": [
     "yfinance",
     "yahoo_chart_api",
     "isyatirimhisse",
     "web_research"
   ],
-  "universe": "BIST100",
+  "universe": "BIST100_core_plus_opportunistic_smallcap",
   "tier_map": {
     "MAVI.IS": "mid",
     "MPARK.IS": "mid",

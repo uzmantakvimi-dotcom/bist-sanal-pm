@@ -25,6 +25,6 @@
     "isyatirimhisse",
     "web_research"
   ],
-  "universe": "SP500_plus_select_SP400",
+  "universe": "any_cap_on_merit",
   "ca_bundle_hint": "/root/.ccr/ca-bundle.crt"
 }
