@@ -1,6 +1,6 @@
 {
-  "as_of": "2026-07-31",
-  "cash": 7600.68,
+  "as_of": "2026-08-03",
+  "cash": 7051.39,
   "positions": {
     "PEP": {
       "shares": 10.03,
@@ -17,6 +17,14 @@
       "tier": "Financials",
       "status": "UNDERWRITE_BEKLIYOR",
       "opened": "2026-07-31"
+    },
+    "EYE": {
+      "shares": 24.5,
+      "avg_cost": 22.42,
+      "cost_basis": 549.29,
+      "tier": "Consumer Discretionary",
+      "status": "UNDERWRITE_BEKLIYOR",
+      "opened": "2026-08-03"
     }
   }
 }

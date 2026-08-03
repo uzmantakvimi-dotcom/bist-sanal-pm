@@ -1,6 +1,6 @@
 {
-  "as_of": "2026-07-30",
-  "cash": 121032.3,
+  "as_of": "2026-07-31",
+  "cash": 96624.3,
   "positions": {
     "MAVI.IS": {
       "shares": 1951,
@@ -41,6 +41,14 @@
       "tier": "mid",
       "status": "UNDERWRITE_BEKLIYOR",
       "opened": "2026-07-16"
+    },
+    "SDTTR.IS": {
+      "shares": 108.0,
+      "avg_cost": 226.0,
+      "cost_basis": 24408.0,
+      "tier": "opportunistic",
+      "status": "UNDERWRITE_BEKLIYOR",
+      "opened": "2026-07-31"
     }
   }
 }

@@ -1,11 +1,11 @@
 {
   "as_of": "2026-08-03",
-  "generated": "2026-08-03T21:49:21.793266Z",
+  "generated": "2026-08-03T22:08:45.073123Z",
   "currency": "USD",
   "nav": 9999.45,
-  "cash": 7600.68,
-  "cash_pct": 76.01,
-  "invested": 2398.77,
+  "cash": 7051.39,
+  "cash_pct": 70.52,
+  "invested": 2948.06,
   "starting_capital": 10000.0,
   "total_return_pct": -0.01,
   "benchmark": {
@@ -18,7 +18,8 @@
   "alpha_pct": -1.43,
   "sector_weights": {
     "Consumer Staples": 14.01,
-    "Financials": 9.98
+    "Financials": 9.98,
+    "Consumer Discretionary": 5.49
   },
   "positions": [
     {
@@ -50,6 +51,21 @@
       "price_source": "yahoo_chart_api",
       "price_date": "2026-08-03",
       "weight_pct": 9.98
+    },
+    {
+      "symbol": "EYE",
+      "shares": 24.5,
+      "avg_cost": 22.42,
+      "price": 22.42,
+      "market_value": 549.29,
+      "cost_basis": 549.29,
+      "pnl": 0.0,
+      "pnl_pct": 0.0,
+      "sector": "Consumer Discretionary",
+      "theme": null,
+      "price_source": "yahoo_chart_api",
+      "price_date": "2026-08-03",
+      "weight_pct": 5.49
     }
   ],
   "risk_warnings": []

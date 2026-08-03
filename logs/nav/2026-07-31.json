@@ -1,10 +1,10 @@
 {
   "as_of": "2026-07-31",
-  "generated": "2026-08-03T21:49:28.736458Z",
-  "nav": 487368.03,
-  "cash": 121032.3,
-  "cash_pct": 24.83,
-  "invested": 366335.73,
+  "generated": "2026-08-03T22:08:40.409634Z",
+  "nav": 487346.43,
+  "cash": 96624.3,
+  "cash_pct": 19.83,
+  "invested": 390722.13,
   "starting_capital": 500000.0,
   "total_return_pct": -2.53,
   "benchmark": {
@@ -91,6 +91,21 @@
       "price_source": "yahoo_chart_api",
       "price_date": "2026-07-31",
       "weight_pct": 14.74
+    },
+    {
+      "symbol": "SDTTR.IS",
+      "shares": 108.0,
+      "avg_cost": 226.0,
+      "price": 225.8,
+      "market_value": 24386.4,
+      "cost_basis": 24408.0,
+      "pnl": -21.6,
+      "pnl_pct": -0.09,
+      "tier": "opportunistic",
+      "status": "UNDERWRITE_BEKLIYOR",
+      "price_source": "yahoo_chart_api",
+      "price_date": "2026-07-31",
+      "weight_pct": 5.0
     }
   ],
   "risk_warnings": []

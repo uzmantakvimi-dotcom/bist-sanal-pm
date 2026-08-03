@@ -19,7 +19,7 @@
   },
   "benchmark_symbol": "XU100.IS",
   "benchmark_role": "secondary_reference",
-  "benchmark_start_level": 14251.30,
+  "benchmark_start_level": 14251.3,
   "benchmark_start_note": "IKINCIL referans (otomatik izlenir). Birincil benchmark Tacirler Kartopu (TTL). XU100 kurulus 2026-07-16 kapanisi 14251.30. Kaynak: Yahoo XU100.IS.",
   "cumulative_inflation_since_inception": 0.0,
   "inflation_note": "Kurulus 2026-07-16. En son RESMI TUIK printi Haziran 2026 (3 Tem 2026 aciklandi) kurulus ONCESINE ait; kurulus-sonrasi ilk print Temmuz 2026 olup ~3 Agu 2026'da aciklanacak. Bu nedenle kurulus-sonrasi kumulatif TUFE su an ~0; Temmuz printi ciktiginda guncellenecek.",
@@ -55,7 +55,8 @@
     "MPARK.IS": "mid",
     "CCOLA.IS": "large",
     "ENKAI.IS": "large",
-    "TURSG.IS": "large"
+    "TURSG.IS": "large",
+    "SDTTR.IS": "opportunistic"
   },
   "tier_map_note": "Olcek siniflamasi burada tutulur (portfolio.json yalnizca pozisyon/adet). TURSG Turkiye Sigorta buyuk olcekli, devlet kontrollu (TVF) sigortaci - large. MPARK orta-buyuk sinirinda, ihtiyaten mid.",
   "ca_bundle_hint": "/root/.ccr/ca-bundle.crt"

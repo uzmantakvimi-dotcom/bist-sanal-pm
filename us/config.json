@@ -17,7 +17,8 @@
   "sector_map": {
     "PEP": "Consumer Staples",
     "V": "Financials",
-    "GOOGL": "Communication Services"
+    "GOOGL": "Communication Services",
+    "EYE": "Consumer Discretionary"
   },
   "theme_map": {},
   "price_source_priority": [
