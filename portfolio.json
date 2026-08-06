@@ -1,39 +1,7 @@
 {
-  "as_of": "2026-07-31",
-  "cash": 96624.3,
+  "as_of": "2026-08-06",
+  "cash": 387118.15,
   "positions": {
-    "MAVI.IS": {
-      "shares": 1951,
-      "avg_cost": 41.0,
-      "cost_basis": 79991.0,
-      "tier": "mid",
-      "status": "UNDERWRITE_BEKLIYOR",
-      "opened": "2026-07-16"
-    },
-    "CCOLA.IS": {
-      "shares": 833,
-      "avg_cost": 90.0,
-      "cost_basis": 74970.0,
-      "tier": "large",
-      "status": "UNDERWRITE_BEKLIYOR",
-      "opened": "2026-07-16"
-    },
-    "ENKAI.IS": {
-      "shares": 760,
-      "avg_cost": 92.15,
-      "cost_basis": 70034.0,
-      "tier": "large",
-      "status": "UNDERWRITE_BEKLIYOR",
-      "opened": "2026-07-16"
-    },
-    "MPARK.IS": {
-      "shares": 187.0,
-      "avg_cost": 424.7353,
-      "cost_basis": 79425.5,
-      "tier": "mid",
-      "status": "UNDERWRITE_BEKLIYOR",
-      "opened": "2026-07-16"
-    },
     "TURSG.IS": {
       "shares": 11424.0,
       "avg_cost": 6.5255,
